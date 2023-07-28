@@ -317,6 +317,7 @@ function isTotalPriceExceedsMaxPrice(products, maxPrice) {
 			return acc;
 		}	
 	}, 0);
+	
 	let total = Math.fround(totalPrice);
 	let max = Math.fround(maxPrice);
 	return totalPrice > maxPrice;
